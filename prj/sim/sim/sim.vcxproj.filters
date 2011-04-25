@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ftl">
+      <UniqueIdentifier>{f92e7c15-aade-431c-a410-5a98c197f4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ubi">
+      <UniqueIdentifier>{5c454e8a-fa7e-4455-8b4c-1a1261723c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buf">
+      <UniqueIdentifier>{ad52ffb0-bf66-4a53-b4d3-1914d0661edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys">
+      <UniqueIdentifier>{3016a3b4-af1a-4f64-9024-83c181d8197d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{780ea062-182e-45f9-895a-e52cf6abd6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\cutest">
+      <UniqueIdentifier>{02f3ecde-642d-494a-9619-ca83eec031a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\suites">
+      <UniqueIdentifier>{4236316f-3b64-4c7d-a3c5-36e86325312a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mtd">
+      <UniqueIdentifier>{e6b0b980-02b0-46e1-83db-7301e304e379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="onfm">
+      <UniqueIdentifier>{2e372247-6aef-448c-9fbe-a6668284b5cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\test\cutest-1.5\CuTest.c">
+      <Filter>test\cutest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\test\test_main.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\test\suite\suite_mtd.c">
+      <Filter>test\suites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\test\suite\suite_ubi.c">
+      <Filter>test\suites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\test\suite\suite_ftl.c">
+      <Filter>test\suites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ftl\ftl_api.c">
+      <Filter>ftl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\mtd\mtd_api.c">
+      <Filter>mtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\mtd\mtd_nand_sim.c">
+      <Filter>mtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ubi\ubi_anchor.c">
+      <Filter>ubi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ubi\ubi_api.c">
+      <Filter>ubi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ubi\ubi_index.c">
+      <Filter>ubi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\buf\buf_api.c">
+      <Filter>buf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ftl\ftl_bdt.c">
+      <Filter>ftl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ftl\ftl_data.c">
+      <Filter>ftl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ftl\ftl_hdi.c">
+      <Filter>ftl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ftl\ftl_pmt.c">
+      <Filter>ftl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ftl\ftl_root.c">
+      <Filter>ftl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\test\suite\suite_bat.c">
+      <Filter>test\suites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ubi\ubi_area.c">
+      <Filter>ubi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\ubi\ubi_table.c">
+      <Filter>ubi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\core\onfm.c">
+      <Filter>onfm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\sys\sys.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\ftl\ftl_inc.h">
+      <Filter>ftl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cfg.h">
+      <Filter>onfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\inc\cmn.h">
+      <Filter>onfm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

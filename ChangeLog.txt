@@ -1,0 +1,45 @@
+OpenNFM Change Log:
+=========================================================================
+
+2011-03-30
+K9F4G08: 2M/3M
+RAM Disk: 20M/10M
+TODO
+- Q1: MBG, SPINOR
+- Q2: SATA, artical, ...
+
+
+2011-03-15
+TODO in Q1:
+- debug rw on H3131 with K9K8G.
+- SPINOR boot
+- USB-ONFM DEV wrap-up!!!
+Q2: Critiera of SSD Controller HW: 
+- Dual-Port DATA RAM
+- separated DATA/CODE/VAR RAM
+- HW DMA of BUS and NAND transfer
+- ECC > 24bit/1K
+- ~10 Channels
+TBD: SATA, Android/EXT4, Artical/Patent ...
+
+
+2011-02-25
+Code complete. Alpha Release.
+
+TODO in Beta:
+- debug/test on 3131. PLR/BBR/SWL validation. ==> DONE
+- improve performance: usb, dma, nand, clk, timing, conf ...
+- know more about application, host solutions, like android/linux ...
+- eUSB sampling 50 pcs, contact mSATA controller ...
+
+
+2010-12-30
+- Re-org the source directory
+- TODO:
+   - MTD, with multiple plane read/write as a super-page
+   - SIM(nand) dev/debug environment
+   - CUnit build
+   - init test framework, and add MTD test suite
+   - UBI coding and testing
+- Target: eMMC with EXT4. Small BUF ram overhead.
+	
