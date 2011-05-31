@@ -112,6 +112,7 @@ STATUS UBI_Format()
       if (fmt_current_block != INVALID_BLOCK)
       {
          area ++;
+         /* TODO: consider bad block. Count read total_data_block in AREA_Format. */
          total_data_block += block_count;
       }
       else
